@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-color: rgb(128, 126, 122);
+  border: 5px solid rgb(122, 124, 122);
+  border-radius: 30px;
+  width: 414px;
+  margin: 15px auto;
+  height: fit-content;
+  box-shadow: 3px 3px 44px 10px;
+}
+#app-name {
+  padding-top: 20px;
+}
+.soldier {
+  margin-top: -40px;
+}
+.frame-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-divs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  height: 30px;
+  width: 80px;
+  background-color: red;
+  border-radius: 15px;
+}
+.empty-divs a {
+  color: white;
+  text-decoration: none;
+}
